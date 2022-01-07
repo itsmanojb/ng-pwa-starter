@@ -1,0 +1,40 @@
+ul {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 4rem 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
+  max-width: 1000px;
+}
+
+.card {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.card:hover {
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.20), 0 15px 12px rgba(0, 0, 0, 0.12);
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.2;
+  margin: 1rem 0;
+}
+
+small {
+  color: darkcyan;
+  text-transform: lowercase;
+}
+
+address {
+  font-size: 13px;
+  color: #555;
+}
