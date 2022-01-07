@@ -1,6 +1,6 @@
 {
-  "name": "ng-pwa",
-  "version": "0.0.0",
+  "name": "ng-pwa-starter",
+  "version": "0.1.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
