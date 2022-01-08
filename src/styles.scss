@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --theme-color-primary: cornflowerblue;
+  --page-background: #e2e1e0;
+  --text-color: #333;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    --page-background: #282828;
+    --text-color: #bbb;
+  }
+}
+
+body {
+  background: var(--page-background);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+}
