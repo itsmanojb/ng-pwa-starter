@@ -1,23 +1,19 @@
 :root {
   --theme-color-primary: cornflowerblue;
   --page-background: #e2e1e0;
-  --card-background: #fff;
-  --card-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  --card-hover-shadow: 0 19px 38px rgba(0, 0, 0, 0.20), 0 15px 12px rgba(0, 0, 0, 0.12);
   --text-color: #333;
 }
 
 @media (prefers-color-scheme: dark) {
   body {
     --page-background: #282828;
-    --card-background: #343434;
     --text-color: #bbb;
   }
 }
 
 body {
   background: var(--page-background);
-  font-family: 'Ubuntu', sans-serif;
+  color: var(--text-color);
   margin: 0;
   padding: 0;
 }
